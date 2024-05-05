@@ -32,7 +32,7 @@ func runSearch() error {
 
 	usernameString := username.String()
 
-	fmt.Printf("%s\n", usernameString)
+	fmt.Printf("%s", usernameString)
 
 	return nil
 }
